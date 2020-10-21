@@ -7,8 +7,8 @@ type MemberOfPropsForHelloWorldGetStatic = {
 //     props: MemberOfPropsForHelloWorldGetStatic
 // }
 
-const HelloWorldGetStaticProps = (object: MemberOfPropsForHelloWorldGetStatic) => {
-    return <div>{object.tag_string}</div>
+const HelloWorldGetStaticProps = (props: MemberOfPropsForHelloWorldGetStatic) => {
+    return <div>{props.tag_string}</div>
 }
 
 export const getStaticProps: GetStaticProps = async () => {
