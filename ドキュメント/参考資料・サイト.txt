@@ -4,13 +4,27 @@
 　　ISBN: 978-4-86594-065-7
 
 ◆ 参考2（サイト）
+　　Next.js のチュートリアル
+　　本家url: https://nextjs.org/learn/basics/create-nextjs-app
+　　翻訳url: https://qiita.com/thesugar/items/01896c1faa8241e6b1bc
+
+
+◆ 参考3（サイト）
     Next.js ドキュメント(日本語サイト)
     url: https://nextjs-docs-ja.netlify.app/docs
 
-◆ 参考3（サイト）
+◆ 参考4（サイト）
     初めてでもわかるNext.jsの基礎(React)
     url: https://reffect.co.jp/react/next-js
 
-◆ 参考4（サイト）
+◆ 参考5（サイト）
     Next.js 9.3新API getStaticProps と getStaticPaths と getServerSideProps の概要解説
     url: https://qiita.com/matamatanot/items/1735984f40540b8bdf91
+
+◆ 参考6（サイト）
+　　nextjs with typescript:11 sqliteへの接続とAPIを使ったメソッド制御
+　　https://note.com/fz5050/n/nf50221626ee1
+
+◆ 参考7（サイト）
+　　仕事ですぐに使えるTypeScript
+　　https://future-architect.github.io/typescript-guide/index.html
