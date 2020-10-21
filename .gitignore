@@ -32,3 +32,4 @@ yarn-error.log*
 
 # vercel
 .vercel
+/ドキュメント/~$(添付)Next.js ショッピングサイトデモ 作業ログ.xlsx

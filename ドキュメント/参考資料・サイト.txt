@@ -1,0 +1,16 @@
+◆ 参考1（書籍）
+　　気づけばプロ並みPHP 改訂版──ゼロから作れる人になる！
+　　発行: リックテレコム
+　　ISBN: 978-4-86594-065-7
+
+◆ 参考2（サイト）
+    Next.js ドキュメント(日本語サイト)
+    url: https://nextjs-docs-ja.netlify.app/docs
+
+◆ 参考3（サイト）
+    初めてでもわかるNext.jsの基礎(React)
+    url: https://reffect.co.jp/react/next-js
+
+◆ 参考4（サイト）
+    Next.js 9.3新API getStaticProps と getStaticPaths と getServerSideProps の概要解説
+    url: https://qiita.com/matamatanot/items/1735984f40540b8bdf91
