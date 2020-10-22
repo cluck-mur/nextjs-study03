@@ -16,6 +16,9 @@ export default function Home() {
         <div>
           <Link href="helloWorldGetStaticProps"><a>Hello World! with getStaticProps</a></Link>
         </div>
+        <div>
+          <Link href="buildTimeStars"><a>BuildTimeStars</a></Link>
+        </div>
       </main>
     </div>
   )
