@@ -8,6 +8,7 @@
 // クライアントサイドでは実行されないため'isomorphic-unfetch'は必要ない
 import fetch from 'node-fetch'
 import { GetStaticProps } from 'next'
+import GetToken from '../lib/getToken'
 
 type PropsMember = {
     stars,
@@ -26,9 +27,15 @@ const BuildTimeStars = (props: PropsMember) => {
 }
 
 // ビルド時に実行される
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async (context) => {
+    const token = GetToken()
+
+    const headers = new Headers({ 'Authorization': `token ${token}` });
     const address = 'https://api.github.com/repos/vercel/next.js'
-    const res = await fetch(address)
+    // const res = await fetch(address)
+    const res = await fetch(address, {
+        headers: headers
+    })
     const json = await res.json()
     const stars = json.stargazers_count
     // ビルド時刻の取得

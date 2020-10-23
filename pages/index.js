@@ -19,6 +19,9 @@ export default function Home() {
         <div>
           <Link href="buildTimeStars"><a>BuildTimeStars</a></Link>
         </div>
+        <div>
+          <Link href="ssrStars"><a>SsrStars</a></Link>
+        </div>
       </main>
     </div>
   )
