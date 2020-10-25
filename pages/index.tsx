@@ -3,6 +3,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import getRawBody from 'raw-body';
+import formUrlDecoded from 'form-urldecoded'
 
 const Home = ({ err }) => {
   // const router = useRouter()
@@ -38,9 +40,14 @@ const Home = ({ err }) => {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  //console.log(context)
-  const trailers = context.req.trailers
-  console.log(trailers)
+  //#region // POSTメッセージからBodyを取得する
+  if (context.req.method == 'POST') {
+    const body = await getRawBody(context.req)
+    const body_string = body.toString()
+    const body_json = formUrlDecoded(body_string)
+    console.log(body_json)
+  }
+  //#endregion　// POSTメッセージからBodyを取得する
 
   return {
     props: {

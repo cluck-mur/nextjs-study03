@@ -46,3 +46,7 @@
 ◆ 参考10（サイト）
 　　【console.logとはおさらば】Next.jsをVSCodeでデバッグさせる方法
 　　url: https://ichiki.netlify.app/blog/20200113_nextjs_debug/
+
+◆ 参考11（サイト）
+　　getServerSideProps の中でPOSTのデータにアクセスする（Accessing POST data in getServerSideProps #12152）
+　　url: https://github.com/vercel/next.js/discussions/12152
