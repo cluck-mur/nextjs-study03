@@ -30,7 +30,7 @@ const Home = ({ err }) => {
         </div>
         <div>
           <form action="" method="post">
-            メモ: <input type="text" name="memo" size="40"></input><br />
+            メモ: <input type="text" name="memo" size={40}></input><br />
             <input type="submit" value="OK"></input>
           </form>
         </div>
