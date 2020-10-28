@@ -1,0 +1,4 @@
+Next.jsの勉強03 TypeScriptの練習
+・TypeScriptの練習
+・VSCode向けデバッグ設定
+・SQLiteの設定（npm installまで）
